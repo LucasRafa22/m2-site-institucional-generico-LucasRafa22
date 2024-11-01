@@ -1,0 +1,36 @@
+.logo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.logo-cabeca{
+    display: flex;
+    justify-content: space-around;
+}
+
+.banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.about{
+    display: flex;
+    align-items: center
+}
+
+.faq{
+    display: flex;
+    flex-direction: row;
+}
+
+.comments{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imagem{
+    display: flex;
+    justify-content: center;
+}
