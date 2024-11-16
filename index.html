@@ -9,31 +9,31 @@
   </head>
   <body>
     <!-- ====== Header ====== -->
-    <header class="logo">
-      <div class="logo-cabeca">
+    <header class="header">
+      <div class="header__logo">
         <img src="src/assents/logo.svg" alt="Logo" />
-        <button class="text4">Entrar para próxima turma</button>
+        <button class="text4 header__button">Entrar para próxima turma</button>
       </div>
     </header>
-    <main>
+    <main class="container">
       <!-- ====== Section Banner ====== -->
-      <section>
-        <div class="banner">
-          <h1 class="title1">Desenvolvendo <span>suas</span> próximas habilidades</h1>
-          <p class="text1">
+      <section class="banner">
+        <div class="banner__content">
+          <h1 class="title1 banner__title">Desenvolvendo <span class="banner__title-span">suas</span> próximas habilidades</h1>
+          <p class="text1 banner__text">
             Lorem Ipsum is simply dummy text of the printing and typesetting
             industry. Lorem Ipsum has been the industry's standard dummy text
             ever since the 1500s
           </p>
-          <button class="text4">Sobre nós</button>
+          <button class="text4 banner__button">Sobre nós</button>
         </div>
       </section>
 
       <!-- ====== Section About ====== -->
-      <section>
-        <div class="about">
-          <h2 class="title2">Quem somos nós?</h2>
-          <p class="text1 titulo">
+      <section class="about">
+        <div class="about__content">
+          <h2 class="title2 about__title">Quem somos nós?</h2>
+          <p class="text1 about__text">
             It is a long established fact that a reader will be distracted by
             the readable content of a page when looking at its layout. The point
             of using Lorem Ipsum is that it has a more-or-less normal
@@ -43,26 +43,24 @@
       </section>
 
       <!-- ====== Section FAQ ====== -->
-      <section>
-        <div class="faq">
+      <section class="faq">
+        <div class="faq__content">
           <!-- LEFT SIDE -->
-          <div>
-            <div>
-              <h2 class="title2">Dúvidas frequentes</h2>
-              <p class="text1">
+          <div class="faq__left">
+            <h2 class="title2 faq__title">Dúvidas frequentes</h2>
+            <p class="text1 faq__text">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the industry's standard dummy
                 text ever since the 1500s
-              </p>
-              <button class="text4">Entrar para próxima turma</button>
-            </div>
+            </p>
+            <button class="text4 faq__button">Entrar para próxima turma</button>
           </div>
           <!-- RIGHT SIDE -->
-          <ul>
+          <ul class="faq__list">
             <!-- Question 1 -->
-            <li>
-              <h3 class="title3">Quais matérias vou pagar?</h3>
-              <p class="text1">
+            <li class="faq__item">
+              <h3 class="title3 faq__question">Quais matérias vou pagar?</h3>
+              <p class="text1 faq__answer">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -70,9 +68,9 @@
               </p>
             </li>
             <!-- Question 2 -->
-            <li>
-              <h3 class="title3">Tenho direito à cancelamento?</h3>
-              <p class="text1">
+            <li class="faq__item">
+              <h3 class="title3 faq__question">Tenho direito à cancelamento?</h3>
+              <p class="text1 faq__answer">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -80,9 +78,9 @@
               </p>
             </li>
             <!-- Question 3 -->
-            <li>
-              <h3 class="title3">O acesso do curso é vitalício?</h3>
-              <p class="text1">
+            <li class="faq__item">
+              <h3 class="title3 faq__question">O acesso do curso é vitalício?</h3>
+              <p class="text1 faq__answer">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -90,9 +88,9 @@
               </p>
             </li>
             <!-- Question 4 -->
-            <li>
-              <h3 class="title3">O acesso do curso é vitalício?</h3>
-              <p class="text1">
+            <li class="faq__item">
+              <h3 class="title3 faq__question">O acesso do curso é vitalício?</h3>
+              <p class="text1 faq__answer">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -104,28 +102,26 @@
       </section>
 
       <!-- ====== Section Comments ====== -->
-      <section>
-        <div class="comments">
+      <section class="comments">
+        <div class="comments__content">
           <!-- RIGHT SIDE -->
-          <div>
-            <div>
-              <h2 class="title2">O que nossos alunos comentam?</h2>
-              <p class="text1">
-                Lorem Ipsum is simply dummy text of the printing and typesetting
-                industry. Lorem Ipsum has been the industry's standard dummy
-                text ever since the 1500s
-              </p>
-            </div>
+          <div class="comments__header">
+            <h2 class="title2 comments__title">O que nossos alunos comentam?</h2>
+            <p class="text1 comments__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy
+              text ever since the 1500s
+            </p>
           </div>
           <!-- LEFT SIDE -->
-          <ul>
+          <ul class="comments__list">
             <!-- Comment 1 -->
-            <li>
-              <div>
-                <h3 class="title3">Júlia Lima</h3>
-                <p class="text3">Aluna na turma 2019</p>
+            <li class="comments__item">
+              <div class="comments__author">
+                <h3 class="title3 comments__author-name">Júlia Lima</h3>
+                <p class="text3 comments__author-info">Aluna na turma 2019</p>
               </div>
-              <p class="text2">
+              <p class="text2 comments__text">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -133,12 +129,12 @@
               </p>
             </li>
             <!-- Comment 2 -->
-            <li>
-              <div>
-                <h3 class="title3">Carlos Ino</h3>
-                <p class="text3">Aluno na turma 2020</p>
+            <li class="comments__item">
+              <div class="comments__author">
+                <h3 class="title3 comments__author-name">Carlos Ino</h3>
+                <p class="text3 comments__author-info">Aluno na turma 2020</p>
               </div>
-              <p class="text2">
+              <p class="text2 comments__text">
                 It is a 🎨 established fact that a reader will be distracted by
                 the readable content of a page when looking at its layout. The
                 point of using Lorem Ipsum is that it has a more-or-less normal
@@ -146,25 +142,25 @@
               </p>
             </li>
             <!-- Comment 3 -->
-            <li>
-              <div>
-                <h3 class="title3">Camila Dias</h3>
-                <p class="text3">Aluna na turma 2019</p>
+            <li class="comments__item">
+              <div class="comments__author">
+                <h3 class="title3 comments__author-name">Camila Dias</h3>
+                <p class="text3 comments__author-info">Aluna na turma 2019</p>
               </div>
-              <p class="text2">
+              <p class="text2 comments__text">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
                 normal distribution of letters, as opposed to using ❤️ ❤️ ❤️
               </p>
             </li>
-            <!-- Comment 4 -->
-            <li>
-              <div>
-                <h3 class="title3">João Vaz</h3>
-                <p  class="text3">Aluno na turma 2019</p>
+              <!-- Comment 4 -->
+            <li class="comments__item">
+              <div class="comments__author">
+                <h3 class="title3 comments__author-name">João Vaz</h3>
+                <p  class="text3 comments__author-info">Aluno na turma 2019</p>
               </div>
-              <p class="text2">
+              <p class="text2 comments__text">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -172,12 +168,12 @@
               </p>
             </li>
             <!-- Comment 5 -->
-            <li>
-              <div>
-                <h3 class="title3">Gio Oliveira</h3>
-                <p class="text3">Aluna na turma 2019</p>
+            <li class="comments__item">
+              <div class="comments__author">
+                <h3 class="title3 comments__author-name">Gio Oliveira</h3>
+                <p class="text3 comments__author-info">Aluna na turma 2019</p>
               </div>
-              <p class="text2">
+              <p class="text2 comments__text">
                 It is a long established fact that a reader will be distracted
                 by the readable content of a page when looking at its layout.
                 The point of using Lorem Ipsum is that it has a more-or-less
@@ -190,8 +186,8 @@
     </main>
 
     <!-- ====== Footer ====== -->
-    <footer class="imagem">
-      <img src="src/assents/logo.svg" alt="Logo" />
+    <footer class="footer">
+      <img class="footer__logo" src="src/assents/logo.svg" alt="Logo" />
     </footer>
 
     <!-- ====== Modal ====== -->

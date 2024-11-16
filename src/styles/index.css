@@ -1,36 +1,166 @@
-.logo{
+.header{
     display: flex;
-    flex-direction: row;
     justify-content: center;
+    background-color: var(--gray-1);
+    border-bottom: 2px solid var(--brand-1);
+    padding: 20px 0px;
 }
 
-.logo-cabeca{
+.header__logo{
+    width: 1256px;
     display: flex;
     justify-content: space-around;
 }
 
-.banner{
+.banner__content{
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: var(--gray-2);
+    padding: 150px 100px;
 }
 
-.about{
+.about__content{
     display: flex;
-    align-items: center
+    align-items: center;
+    background-color: var(--gray-1);
+    padding: 40px;
 }
 
-.faq{
+.faq__content{
     display: flex;
     flex-direction: row;
+    background-color: var(--gray-2);
 }
 
 .comments{
-    display: flex;
-    flex-direction: row-reverse;
+    background-color: var(--gray-2);
+    padding: 40px;
 }
 
-.imagem{
+.footer{
     display: flex;
     justify-content: center;
+    background-color: var(--gray-1);
+    padding: 30px 0;
+}
+
+.header__button{
+    color: var(--gray-7);
+    background-color: var(--gray-1);
+    border-color: var(--gray-7);
+    padding: 20px 30px;
+}
+
+.banner__title {
+    color: var(--gray-6);
+    padding: 50px 30px;
+}
+
+.banner__title-span{
+    color: var(--brand-1);
+}
+
+.banner__text{
+    color: var(--gray-4);
+    padding: 0 160px;
+    text-align: center;
+}
+
+.banner__button{
+    background-color: var(--brand-1);
+    color: var(--gray-7);
+    margin: 50px 0px;
+    padding: 20px 30px;
+    border-color: transparent;
+}
+
+.about__title{
+    color: var(--gray-6);
+    white-space: nowrap;
+}
+
+.about__text{
+    color: var(--gray-5);
+    padding: 30px 0;
+    padding-left: 200px;
+    padding-right: 50px;
+}
+
+.faq__content{
+    padding: 50px
+}
+
+.faq__title{
+    color: var(--gray-6);
+    padding-bottom: 20px;
+}
+
+.faq__text{
+    color: var(--gray-4);
+    padding-bottom: 30px;
+}
+
+.faq__button{
+    padding: 15px;
+    background-color: var(--brand-1);
+    color: var(--gray-7);
+    border-color: transparent;
+}
+
+.faq__item{
+    padding: 0 50px;
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+.faq__answer{
+    color: var(--gray-4);
+    text-align: start;
+    padding: 0 50px;
+}
+
+.faq__question{
+    color: var(--gray-6);
+    padding-bottom: 20px;
+}
+
+.comments__content{
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-start
+}
+
+.comments__item{
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 75px;
+}
+
+.comments__author-name{
+    white-space: nowrap;
+    color: var(--gray-6);
+}
+
+.comments__author-info{
+    white-space: nowrap;
+    color: var(--gray-4);
+    padding-right: 70px;
+}
+
+.comments__title{
+    color: var(--gray-7);
+}
+
+.comments__text{
+    padding-right: 75px;
+    text-align: justify;
+    color: var(--gray-5);
+}
+
+.comments__header{
+    background-color: var(--brand-1);
+    content: normal;
+    padding: 75px 0;
+    padding-left: 75px;
 }
