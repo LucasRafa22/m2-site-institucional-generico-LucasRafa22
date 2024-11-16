@@ -4,6 +4,9 @@
     background-color: var(--gray-1);
     border-bottom: 2px solid var(--brand-1);
     padding: 20px 0px;
+    position: fixed;
+    top: 0;
+    z-index: 1;
 }
 
 .header__logo{
@@ -18,6 +21,7 @@
     align-items: center;
     background-color: var(--gray-2);
     padding: 150px 100px;
+    margin-top: 100px;
 }
 
 .about__content{
@@ -31,6 +35,8 @@
     display: flex;
     flex-direction: row;
     background-color: var(--gray-2);
+    align-items: flex-start;
+    padding: 50px;
 }
 
 .comments{
@@ -87,8 +93,10 @@
     padding-right: 50px;
 }
 
-.faq__content{
-    padding: 50px
+.faq__left{
+    position: sticky;
+    top: 125px;
+    padding: 1px;
 }
 
 .faq__title{
@@ -163,4 +171,6 @@
     content: normal;
     padding: 75px 0;
     padding-left: 75px;
+    position: sticky;
+    top: 125px;
 }
