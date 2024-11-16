@@ -56,6 +56,7 @@
     background-color: var(--gray-1);
     border-color: var(--gray-7);
     padding: 20px 30px;
+    cursor: pointer;
 }
 
 .banner__title {
@@ -114,6 +115,11 @@
     background-color: var(--brand-1);
     color: var(--gray-7);
     border-color: transparent;
+    cursor: pointer;
+}
+
+.faq__button:hover{
+    background-color: var(--brand-2);
 }
 
 .faq__item{
@@ -173,4 +179,64 @@
     padding-left: 75px;
     position: sticky;
     top: 125px;
+}
+
+.modal{
+    width: 504px;
+    height: 416px;
+    background-color: var(--gray-2);
+    border: 2px solid var(--brand-1);
+}
+
+.modal__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 10px;
+    padding-bottom: 20px;
+}
+
+.modal__cadastro{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.modal__header-title{
+    color: var(--gray-7);
+}
+
+.modal__header-close{
+    background-color: var(--gray-3); 
+    border: none;
+    color: var(--gray-4);
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.modal__cadastro-text{
+    padding-bottom: 35px;
+    color: var(--gray-4);
+}
+
+.modal__cadastro-input{
+    padding: 15px 0;
+    margin-bottom: 10px;
+    background-color: var(--gray-1);
+    color: var(--gray-4);
+    border: none;
+    padding-left: 20px;
+}
+
+.modal__cadastro-button{
+    padding: 15px 0;
+    background-color: var(--brand-1);
+    color: var(--gray-7);
+    border: none;
+    cursor: pointer;
+}
+
+.modal__cadastro-button:hover{
+    background-color: var(--brand-2);
 }
