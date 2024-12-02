@@ -7,12 +7,13 @@
     position: fixed;
     top: 0;
     z-index: 1;
+    width: 100%;
 }
 
 .header__logo{
-    width: 1256px;
     display: flex;
     justify-content: space-around;
+    width: 100%;
 }
 
 .banner__content{
@@ -62,6 +63,7 @@
 .banner__title {
     color: var(--gray-6);
     padding: 50px 30px;
+    text-align: center;
 }
 
 .banner__title-span{
@@ -239,4 +241,152 @@
 
 .modal__cadastro-button:hover{
     background-color: var(--brand-2);
+}
+
+@media (max-width: 1024px) {
+    .comments__item{
+        flex-direction: column;
+    }
+    
+    .comments__author{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .comments__author-info{
+        padding-top: 15px;
+        padding-left: 20px;
+    }
+}
+
+@media (max-width: 768px){
+    .banner__content{
+        padding: 20px;
+    }
+
+    .banner__title {
+        padding: 50px 0;
+    }
+
+    .banner__text{
+        padding: 0;
+    }
+
+    .about__content{
+        flex-direction: column;
+    }
+
+    .about__text{
+        padding: 30px 50px;
+        text-align: justify;
+    }
+
+    .faq__content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .faq__left{
+        position: initial;
+        padding-bottom: 60px;
+        display: flex;
+        flex-direction: column;
+        text-align: justify;
+    }
+
+    .faq__answer{
+        padding: 0;
+        text-align: justify;
+    }
+
+    .faq__item{
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .comments__content{
+        flex-direction: column;
+    }
+
+    .comments__header{
+        padding: 75px 25px;
+        margin-bottom: 75px;
+        position: initial;
+    }
+
+    .comments__title{
+        padding-bottom: 30px;
+    }
+
+    .comments__text{
+        padding: 0;
+    }
+}
+
+@media (max-width: 425px){
+    .header{
+        width: 425px;
+    }
+
+    .container{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .header__img{
+        position: relative;
+        right: 100px;
+    }
+
+    .header__button{
+        position: absolute;
+        bottom: 100px;
+    }
+
+    .about__text{
+        padding: 0;
+        padding-top: 20px;
+    }
+
+    .about__content{
+        padding: 30px 10px;
+    }
+
+    .faq__content{
+        padding: 10px
+    }
+
+    .faq__title{
+        white-space: nowrap;
+        text-align: center;
+    }
+
+    .faq__text{
+        padding-bottom: 20px;
+    }
+
+    .comments{
+        padding: 0;
+    }
+
+    .comments__content{
+        padding: 10px;
+    }
+
+    .comments__title{
+        padding: 10px;
+    }
+
+    .comments__text{
+        padding-right: 10px;
+    }
+
+    .footer{
+        position: relative;
+        bottom: 50px;
+    }
+
+    .modal{
+        padding: 10px 0;
+    }
 }
